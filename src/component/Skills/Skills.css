@@ -1,0 +1,77 @@
+.skills{
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin-top: 100px;
+     gap:20px;
+
+}
+
+#skill{
+     
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+#intro{
+  width: 70%;
+  margin: auto;
+  font-size: 18px;
+  color: rgb(215,215,215);
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap:30px;
+    /* background-color: red; */
+    width: 60%;
+}
+
+ .card {
+
+    width: 80%;
+    height: 100px;  
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: white; */
+    
+}
+
+.card .one{
+   /* background-color: rgb(80,80,80); */
+   height: 60px;
+   width: 300px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px 10px;
+}
+
+.card .one img{
+
+    height: 90px;
+    width: 90px;
+}
+
+.card .one .outer{
+
+    background-color:rgb(80,80,80);
+    height: 10px;
+    width: 200px;
+    border-radius: 4px;
+}
+
+.card .one .outer .inner{
+    background-color: rgb(203, 195, 195);
+    height: 10px;
+    width: 70%;
+    border-radius: 4px;
+}
